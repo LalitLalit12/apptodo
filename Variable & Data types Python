@@ -1,1 +1,35 @@
+n=10.5
+m=complex(2,8)
+a= complex(20,5)
+c=5
+d= a*c, a/c, a+c, a-c
+print (d)
 
+print(a)
+print(c)
+
+d!=o
+o= n*m, n/m, m+n, m-n
+print(o)
+
+print(m)
+print(n)
+
+print("the of type n is ", type(n))
+print ("the type of m is ", type(m))
+
+#this pyhton code for Radom data mortivation
+
+from matplotlib import pyplot as plt
+import numpy as np
+
+# Generate 100 random data points along 3 dimensions
+x, y, scale = np.random.randn(3, 100)
+fig, ax = plt.subplots()
+
+# Map each onto a scatterplot we'll create with Matplotlib
+ax.scatter(x=x, y=y, c=scale, s=np.abs(scale)*500)
+ax.set(title="Some Random Data, Created By Lalit Pandit!")
+plt.show()
+
+    
